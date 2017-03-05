@@ -524,8 +524,8 @@ class Main(QtGui.QMainWindow):
                 self.score = u,v
             if msg == ':-)':
                 self.noscore = True
-            self.ui.l_total.show()
-            self.ui.l_total.setText(self.tr('The correct answer is %1').arg(self.answer))
+            #self.ui.l_total.show()
+            #self.ui.l_total.setText(self.tr('The correct answer is %1').arg(self.answer))
             self.ui.le_answer.setDisabled(True)
             self.ui.pb_check.setDisabled(True)
             self.ui.label.setPixmap(QtGui.QPixmap(img))
